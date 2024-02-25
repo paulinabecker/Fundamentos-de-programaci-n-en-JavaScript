@@ -40,7 +40,7 @@ $("#btnBuscar").on("click", function () {
   function mostrarHero(dataHero) {
     $("#resultadoHero").append(
       `<h1 id="tituloHero">SuperHero Encontrado</h1>
-            <div id="cardHero" class="card mb-3">
+            <div id="cardHero" class="card mb-3 container-fluid">
                 <div class="row g-0">
                     <div class="col-md-4">
                         <img src="${dataHero.image.url}" class="img-fluid rounded-start" alt="Foto ${dataHero.name}">
