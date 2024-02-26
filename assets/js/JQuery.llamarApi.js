@@ -1,4 +1,4 @@
-jQuery.fn.ApiHero = function () {
+$.fn.ApiHero = function () {
     const tokenApi = "10161099658556112";
     let heroId = Number($("#inputHero").val());
     $.ajax({
